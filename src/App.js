@@ -16,6 +16,11 @@ import secondman from"./IMAGES/secondman.jpg"
 import thirdman from"./IMAGES/thirdman.jpg"
 import heroImage from"./IMAGES/hero1.jpg"
 import logopng from"./IMAGES/companylogo.png"
+import avartglass from"./IMAGES/avtar-1.jpg"
+import avarteyes from"./IMAGES/avtar-2.jpg"
+import avartman from"./IMAGES/avtar-3.jpg"
+
+
 
 
 
@@ -366,26 +371,32 @@ function App() {
 
 <section className="highlights row my-5 " style={{padding:"300px", color:"gray" , backgroundColor:"white" , height:"100px , gap:20px"}}>
         <div className= "col-4" >
+        <img src={avartglass} alt="avt1" style={{width: "50%", height: "40%", objectFit: "contain",}}/> 
           <h5 p>Lorem Ipsum is simply dummy text 
             of the printing <br/>and typesetting industry. 
             Lorem Ipsum has been he industry's standard dummy text ever since</h5>
+            <h6 class="text-center mb-0 mt-3"><b>MELISSA SMITH-GOOGLE</b></h6>
         </div>
         <div className="col-4">
+        <img src={avarteyes} alt="avt2" style={{width: "50%", height: "40%", objectFit: "contain",}}/>
           <h5 p>Lorem Ipsum is simply dummy text 
             of the printing <br/>and typesetting industry. 
             Lorem Ipsum has been he industry's standard dummy text ever since</h5>
+            <h6 class="text-center mb-0 mt-3"><b>JEREMY GIRARD-MICROSOFT</b></h6>
         </div>
         <div className="col-4">
+        <img src={avartman} alt="avt3" style={{width: "50%", height: "40%", objectFit: "contain",}}/>
           <h5 p>Lorem Ipsum is simply dummy text 
             of the printing <br/>and typesetting industry. 
             Lorem Ipsum has been he industry's standard dummy text ever since</h5>
+            <h6 class="text-center mb-0 mt-3"><b>PAUL SCRIVENS-FACEBOOK</b></h6>
         </div>
         
       </section>
 
 <nav className="mainform row">
   <div className="col-6  ">
-  <form action="/action_page.php form-border border: 1px solid #ddd" style={{padding:"70px"}}>
+  <form action="/action_page.php form-border border: 1px solid #ddd" style={{padding:"70px" ,backgroundColor:'white' , width:'600px'}}>
   <h4>Ready to Get Started?</h4>
   <div class="mb-3 mt-3">
     <label for="email" class="form-label">Your Name:</label>
@@ -396,17 +407,18 @@ function App() {
     <input type="email" class="form-control" id="email" placeholder="email" name="email"/>
   </div>
   <div class="form-check mb-3">
-  <label for="comment">Comments:</label>
+  <label for="Your Message">Your Message:</label>
   <textarea class="form-control " rows="4" id="comment" name="text"></textarea>
+  <input type="email" class="form-control" id="message" placeholder="your message" name="message"/>
   </div >
-  <button type="button" class="btn btn-success text-white rounded-pill mt-3 cuswidth" >SEND MESSAGE </button>
+  <button type="button" class="btn btn-success text-white rounded-pill mt-3 cuswidth paddingup" >SEND MESSAGE </button>
 </form>
   </div>
-  <div className="col-6" style={{padding:"70px"}}>
+  <div className="col-6" style={{paddingBottom:"50px ,paddingRight:40px"}}>
 <h3>Looking For a Excellent<br/> Business Idea?</h3>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/>industry. 
   Lorem Ipsum has been the standard dummy text.</p>
-  <button type="button" class="btn btn-outline-success text-success rounded-pill mt-4 mb-3 cuswidth" >Get Directions </button>
+  <button type="button" class="btn btn-outline-green text-green rounded-pill mt-4 mb-3 cuswidth" >Get Directions </button>
   <hr style={{width:"500px",  paddingBottom:"5px"}}></hr>
   <h5>Our Headquarters</h5>
   <p style={{fontSize:"14px"}}>301 The Greenhouse, Custard,<br/> Factory, London, E2 8DY.</p>

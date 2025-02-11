@@ -221,6 +221,7 @@ padding-right: 50px;
   padding-right: 80%;
   display: flex;
   flex: 2;
+  gap: 80px;
 }
 .form-border{
   
@@ -256,13 +257,16 @@ padding-right: 50px;
   padding-left: 60px;
   background-color: white;
   display: flex;
+}
   .man1{
     width: 50px ; 
     height: 500px;
     overflow: hidden;
   }
-
+.highlights{
+  height: 40px;
 }
+
 
 
 
