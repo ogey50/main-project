@@ -243,18 +243,18 @@ function App() {
            to make a type specimen book.</p>
            </div>
 <div className="row man p-2 mb-0">
-           <div className="col-4" style={{paddingLeft:"50px"}}>
-            <img src={firstman} alt="man1" style={{width:"80%", height:"60%", objectFit:"contain",}}/> 
+           <div className="col-4">
+            <img src={firstman} alt="man1" style={{width: "80%", height: "60%", objectFit: "contain",}}/> 
             <h6 class="text-center mb-0 mt-3"><b>Sara Smith</b></h6>
             <h6 class="text-center mt-0" style={{color:"gray"}}>Founder and CEO</h6>
-            <hr class="mx-auto"style={{width:"350px"}}></hr>
+            <hr class="mx-auto"style={{width:"300px"}}></hr>
            
             </div>
            <div className="col-4"> 
             <img src={secondman} alt="man2" style={{width:"80%", height:"60%", objectFit:"contain"}}/>
             <h6 class="text-center mb-0 mt-3"><b>Soma Christian</b></h6>
             <h6 class="text-center mt-0" style={{color:"gray"}}>Creative Director</h6>
-            <hr class="mx-auto"style={{width:"350px"}}></hr>
+            <hr class="mx-auto"style={{width:"300px"}}></hr>
           
             
             </div>
@@ -262,14 +262,14 @@ function App() {
              <img src={thirdman} alt="man3" style={{width:"80%", height:"60%", objectFit:"contain"}}/>
              <h6 class="text-center mb-0 mt-3"><b>Andrew Lupkin</b></h6>
             <h6 class="text-center mt-0" style={{color:"gray"}}>Developer Head</h6>
-            <hr class="mx-auto"style={{width:"350px"}}></hr>
+            <hr class="mx-auto"style={{width:"300px"}}></hr>
           
              </div>
              </div>
       </main>
 
       <nav className=" number1 row" style={{backgroundColor:"whitesmoke", 
-        alignContent:"center", alignItems:"right",height:"200px", padding:"150px", paddingRight: "300px"}}>
+        alignContent:"center", alignItems:"right",height:"200px", padding:"150px", paddingRight: "300px" ,gap: "150px"}}>
      
         <div className="col-3" >
           <h1><b>1500</b></h1>
@@ -364,7 +364,7 @@ function App() {
 </main>
 
 
-<section className="highlights row my-5 " style={{padding:"300px", color:"gray" , backgroundColor:"white" , height:"100px ,"}}>
+<section className="highlights row my-5 " style={{padding:"300px", color:"gray" , backgroundColor:"white" , height:"100px , gap:20px"}}>
         <div className= "col-4" >
           <h5 p>Lorem Ipsum is simply dummy text 
             of the printing <br/>and typesetting industry. 

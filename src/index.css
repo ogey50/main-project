@@ -238,6 +238,31 @@ padding-right: 50px;
   flex: 2;
 }
 
+.cuswidth{
+  width: 200px;
+  color: white;
+  margin-left: 20px;
+}
+.nav1r{
+  justify-content: end;
+}
+
+.hr1{
+  width: 80px;
+  height: 5px;
+  color: green;
+}
+.man{
+  padding-left: 60px;
+  background-color: white;
+  display: flex;
+  .man1{
+    width: 50px ; 
+    height: 500px;
+    overflow: hidden;
+  }
+
+}
 
 
 
